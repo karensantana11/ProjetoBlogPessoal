@@ -1,5 +1,6 @@
 package com.generation.blogpessoal.controller;
 
+import jakarta.validation.Valid;
 import java.util.List;
 import java.util.Optional;
 
@@ -22,7 +23,7 @@ import com.generation.blogpessoal.model.Postagem;
 import com.generation.blogpessoal.repository.PostagemRepository;
 import com.generation.blogpessoal.repository.TemaRepository;
 
-import jakarta.validation.Valid;
+
 
 @RestController
 @RequestMapping("/postagens")
